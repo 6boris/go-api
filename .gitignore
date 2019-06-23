@@ -12,6 +12,6 @@
 *.out
 
 # Idea
-app.yaml
+conf/app.yaml
 .idea
 *.iml
