@@ -1,0 +1,41 @@
+app:
+  name: BLOG
+  group: nr
+  sys: payment
+  inst: inst1
+  type: ecs
+  env:  local
+  desc:  blog
+#  env:  [local,dev,prod,test]
+
+
+# server config
+server:
+  host: 127.0.0.1
+  port: 9000
+
+
+# mysql config
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: blog
+  username: root
+  password:
+
+# redis config
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+  auth:
+
+mail:
+  driver: smtp
+  host: smtp.126.com
+  port: 465
+  username:
+  password:
+  encryption: ssl
+  fromaddress:
+  fromname:
